@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { UserProfileCardComponent } from './user-profile-card/user-profile-card.component';
+import { NotificationsComponent } from './notifications/notifications.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, UserProfileCardComponent],
+  imports: [RouterOutlet, UserProfileCardComponent, NotificationsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
