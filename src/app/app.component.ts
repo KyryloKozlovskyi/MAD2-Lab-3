@@ -5,7 +5,7 @@ import { NotificationsComponent } from './notifications/notifications.component'
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, UserProfileCardComponent, NotificationsComponent],
+  imports: [RouterOutlet, UserProfileCardComponent, NotificationsComponent], // Add the imports array
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })

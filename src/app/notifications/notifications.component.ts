@@ -9,6 +9,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './notifications.component.css',
 })
 export class NotificationsComponent {
+  // Array of notifications to display in the notifications component
   notifications = [
     { message: 'New message from support.', read: false },
     { message: 'System update available.', read: true },

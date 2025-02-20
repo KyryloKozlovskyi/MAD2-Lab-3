@@ -1,3 +1,4 @@
+/* Notifications component styles */
 .notifications-container {
   max-width: 600px;
   margin: 0 auto;
@@ -10,6 +11,7 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
+/* Notifications list styles */
 .notifications-list {
   list-style: none;
   padding: 0;
@@ -17,6 +19,7 @@ h2 {
   text-align: left;
 }
 
+/* Notification item styles */
 .notification-item {
   display: flex;
   justify-content: space-between;
@@ -29,16 +32,19 @@ h2 {
   color: white;
 }
 
+/* Unread notification item styles */
 .notification-item.unread {
   background: linear-gradient(135deg, #1976d2 0%, #0d47a1 100%);
   border-left: 4px solid #ffd700;
 }
 
+/* Notification message styles */
 .notification-message {
   flex: 1;
   margin-right: 1rem;
 }
 
+/* Notification status styles */
 .notification-status {
   color: #ffd700;
   font-size: 1.2rem;
