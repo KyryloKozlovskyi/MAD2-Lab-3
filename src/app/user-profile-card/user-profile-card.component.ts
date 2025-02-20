@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrl: './user-profile-card.component.css',
 })
 export class UserProfileCardComponent {
-  user = { name: 'John Smith', email: 'john.smith@example.com', role: 'Admin' };
+  user = {
+    name: 'Kyrylo Kozlovskyi',
+    email: 'g00425385@atu.ie',
+    role: 'Student',
+  };
 }
